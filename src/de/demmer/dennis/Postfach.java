@@ -18,6 +18,8 @@ public class Postfach implements Iterable<Mail>{
 	@Override
 	public Iterator<Mail> iterator() {
 		
+
+		// new Iterator -> STRG + LEERTASTE -> kleines x auf der linken seite, "add unimplemented methods"
 		return new Iterator<Mail>() {
 			
 			int pos = 0;

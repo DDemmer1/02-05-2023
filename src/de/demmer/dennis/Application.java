@@ -1,5 +1,7 @@
 package de.demmer.dennis;
 
+
+import java.util.ArrayList;
 import java.util.Iterator;
 //denkt an den import
 import java.util.Random;
@@ -17,10 +19,30 @@ public class Application {
 		
 	
 		for (Mail mail : postfach) {
-			System.out.println("Mail");
+//			System.out.println("Mail");
 		}
 		
-			
+		
+		
+		ArrayList<Integer> intList = new ArrayList<Integer>();
+
+		
+		intList.add(new Random().nextInt(101));
+		intList.get(0);
+		
+		
+		intList.size();
+		intList.remove(0);
+		
+		
+		Iterator<Integer> iterator = intList.iterator();
+		
+		iterator.next();
+		iterator.hasNext();
+		iterator.remove();
+		
+		
+		
 		
 	}
 
